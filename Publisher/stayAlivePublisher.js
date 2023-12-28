@@ -27,8 +27,10 @@ amqp.connect(connOptions, function(error0, connection) {
       durable: false
     });
 
-    channel.sendToQueue(queue, Buffer.from(msg));
-    console.log(" [x] Sent %s", msg);
+	for(i = 0; i < 1000000; i++) {		
+		channel.sendToQueue(queue, Buffer.from(msg));
+		console.log(" [x] Sent %s", msg);
+	}
   });
 
   setTimeout(function() {
