@@ -1,4 +1,4 @@
-# Simple messaging service to maintain Cloud Oracle up
+# StayAlive
 ---
 ## How can you setup Consumer:
 
