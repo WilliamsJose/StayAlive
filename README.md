@@ -1,5 +1,7 @@
-# StayAlive
+<h1 align='center'> StayAlive <h1>
+  
 ---
+
 ## How can you setup Consumer:
 
 ### Installing docker and running rabbitmq-server on Cloud
