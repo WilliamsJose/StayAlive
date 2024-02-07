@@ -52,14 +52,10 @@
 ---
 
 ### Send messages to server using Publisher
-**Create a .env file like this next to stayAlivePublisher.js changing IP, USER and PASS**
+**Create a .env file like this next to stayAlivePublisher.js changing IP, USER and PASS, is this case, vhost could be only "/"**
 
 ```
-PROTOCOL="amqp"
-IP="ip.from.cloud"
-PORT="5672"
-USER="admin"
-PASS="admin"
+HOST_URL=amqp://rabbit_user:rabbit_password@your.server.ip.address/vhost_name
 ```
 
 
